@@ -48,4 +48,4 @@
   - [CSS Flex 참고사이트](https://studiomeal.com/archives/197)
   - [CSS Grid 참고사이트](https://studiomeal.com/archives/533)
   - [Grid 참고사이트](https://css-tricks.com/snippets/css/complete-guide-grid/)
-
+  - [정렬 참고사이트](https://myhappyman.tistory.com/163)
