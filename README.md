@@ -14,3 +14,7 @@
 
 - [CSS](https://github.com/sanga327/TIL/blob/main/Web/CSS/README.md)
 - [url 규칙](https://github.com/sanga327/TIL/tree/main/Web/Basic)
+
+
+### Linux
+- [vi 편집기 사용법](https://github.com/sanga327/TIL/blob/main/Linux/vi_manual.md)
