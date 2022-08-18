@@ -14,3 +14,8 @@
 ### (2) 편집 모드
 
 ### (3) ex 명령 모드
+
+
+---
+### 참고
+- [Window에서 vi 편집기 설치](https://github.com/sanga327/TIL/blob/main/Linux/vim_install.md)
