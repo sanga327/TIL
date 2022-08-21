@@ -15,8 +15,8 @@
 ### 3. Customizing
 - 설치시 기본 언어 한글
 - 영어로 변경하고 싶다면 
-  (방법 1) C:\Program Files (x86)\Vim\vim90\lang 폴더 삭제
-  (방법 2) 관리자 권한으로 다음 내용 실행
+  - (방법 1) C:\Program Files (x86)\Vim\vim90\lang 폴더 삭제
+  - (방법 2) 관리자 권한으로 다음 내용 실행
   ```shell
   vi "C:\Program Files (x86)\Vim\_vimrc"
   ```
