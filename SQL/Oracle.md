@@ -1,0 +1,32 @@
+## Oracle 테이블에서 data type 변경
+- 테이블에 데이터가 존재하지 않는 경우에는 테이블을 삭제 후 재생성
+- 테이블에 데이터가 존재하는 경우, 기존 데이터를 삭제하지 않으면서 타입 변경하는 방법
+
+```sql
+-- 새 컬럼 생성 (기존 데이터를 옮겨담을 컬럼)
+ALTER TABLE TABLE_NAME ADD COLUMN_COPY CLOB;
+
+-- 새 컬럼에 기존 데이터 입력 (SET)
+UPDATE TABLE_NAME SET COLUMN_COPY = COLUMN_NAME;
+
+-- 기존 컬럼 삭제
+ALTER TABLE TABLE_NAME DROP COLUMN COLUMN_NAME;
+
+-- 새 컬럼의 이름을 기존 컬럼 이름으로 RENAME
+ALTER TABLE TABLE_NAME RENAME COLUMN COLUMN_COPY TO COLUMN_NAME;
+```
+
+- 예제
+```sql
+ALTER TABLE IF_SCM.IF_CRM_TB ADD CRE_DT_COPY VARCHAR2(20 CHAR);
+UPDATE IF_SCM.IF_CRM_TB SET CRE_DT_COPY = TO_CHAR(CRE_DT, 'YYYYMMDD HH24MISS');
+ALTER TABLE IF_SCM.IF_CRM_TB DROP COLUMN CRE_DT;
+ALTER TABLE IF_SCM.IF_CRM_TB RENAME COLUMN CRE_DT_COPY TO CRE_DT;
+```
+
+---
+## row num 이용하여 한 행 삭제
+```sql
+DELETE FROM IF_SCM.IF_CRMTB 
+WHERE ROWID = (SELECT rid FROM (SELECT ROWNUM rn, ROWID rid FROM IF_SCM.IF_CRMTB) WHERE rn = 187);
+```
