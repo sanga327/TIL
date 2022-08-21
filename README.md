@@ -20,4 +20,4 @@
 
 ### DB
 - SQL
-  - [Oracle](https://github.com/sanga327/TIL/tree/main/SQL)
+  - [Oracle](https://github.com/sanga327/TIL/tree/main/SQL/Oracle.md)
