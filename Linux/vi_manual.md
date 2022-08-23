@@ -2,7 +2,7 @@
 
 [window에서 vi 편집기 설치](https://github.com/sanga327/TIL/blob/main/Linux/vim_install.md)
 
---
+---
 
 ## 1. vi 개념
 #### vi란? 
