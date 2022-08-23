@@ -1,4 +1,9 @@
 # vi(vim) 편집기 기본 사용법
+
+[window에서 vi 편집기 설치](https://github.com/sanga327/TIL/blob/main/Linux/vim_install.md)
+
+--
+
 ## 1. vi 개념
 #### vi란? 
   - Unix 환경에서 사용되는 텍스트 편집기(editor)
@@ -16,6 +21,3 @@
 ### (3) ex 명령 모드
 
 
----
-### 참고
-- [Window에서 vi 편집기 설치](https://github.com/sanga327/TIL/blob/main/Linux/vim_install.md)
