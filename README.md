@@ -17,6 +17,7 @@
 
 ### Linux
 - [vi 편집기 사용법](https://github.com/sanga327/TIL/blob/main/Linux/vi_manual.md)
+- [심볼릭 링크 & 하드 링크](https://github.com/sanga327/TIL/blob/main/Linux/link.md)
 
 ### DB
 - SQL
