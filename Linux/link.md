@@ -79,7 +79,6 @@ $ ln -Tfs test2 link_a
 - 원본 파일 또는 폴더가 존재할 경우 심볼릭 링크가 바로가기 개념이라면, 하드 링크는 원본의 복사본으로 볼 수 있다.
 - 심볼릭 링크는 원본 링크를 걸면 링크 개수가 증가하지 않고 inode number도 원본과 다르지만, 하드 링크는 원본 링크와 같이 링크 개수가 증가하고 inode number도 같다. 
 - 따라서 원본 파일이 삭제되더라도 사용 가능하다. 
-- (+) [inode number란?]()
 
 ### (2) 하드 링크 사용법
 - 하드 링크는 같은 디스크 파티션에 있는 파일만 참조가 가능하다. 
@@ -104,3 +103,4 @@ $ rm -f /data/hard.txt
 - 참고 사이트
   - https://madplay.github.io/post/what-is-a-symbolic-link-in-linux
   - https://min-nine.tistory.com/95
+  - https://it-serial.tistory.com/44
