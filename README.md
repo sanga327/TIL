@@ -1,7 +1,7 @@
 # Today I Learned 👩‍💻
 
 
-### Web
+### 📌 Web
 - BE
   - Spring
     - [Spring legacy로 쇼핑몰 페이지 구현](https://github.com/sanga327/Spring_shopping_board)
@@ -16,10 +16,14 @@
   - [CSS](https://github.com/sanga327/TIL/blob/main/Web/CSS/README.md)
 
 
-### Linux
+### 📌 Linux
 - [vi 편집기 사용법](https://github.com/sanga327/TIL/blob/main/Linux/vi_manual.md)
 - [심볼릭 링크 & 하드 링크](https://github.com/sanga327/TIL/blob/main/Linux/link.md)
 
-### DB
+### 📌 DB
 - SQL
   - [Oracle](https://github.com/sanga327/TIL/tree/main/SQL/Oracle.md)
+
+### 📌 BigData
+- [Platform](https://github.com/sanga327/TIL/tree/main/BigData/Platform.md)
+  
