@@ -26,4 +26,7 @@
 
 ### 📌 BigData
 - [Platform](https://github.com/sanga327/TIL/tree/main/BigData/Platform.md)
-  
+
+
+### 📌 Server
+- [VM/BM](https://github.com/sanga327/TIL/blob/main/Server/VM%20BM.md)
