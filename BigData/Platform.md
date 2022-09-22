@@ -1,7 +1,7 @@
 ## BigData Platform
   - [Flume](https://github.com/sanga327/TIL/blob/main/BigData/Flume.md)
   - [Kafka](https://github.com/sanga327/TIL/blob/main/BigData/Kafka.md)
-  - Hadoop & Jookeeper
+  - Hadoop & Zookeeper
   - HBase & Redis
   - Storm & Esper
   - Hive
