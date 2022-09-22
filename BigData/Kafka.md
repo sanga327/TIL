@@ -42,7 +42,7 @@
 - **Replication**: 카프카에서는 replication 수를 임의로 지정하여 topic을 만들 수 있다. replication-factor에 지정한다. 단순 데이터 복제 용도라기보다는, 특정 broker에 문제가 생긴 경우 해당 broker의 역할을 다른 broker에서 즉각적으로 수행할 수 있도록 하기 위한 용도이다.
   
 구성 요소를 그림으로 표현하면 다음과 같다.   
-<img src='./image/Kafka_cluster.png' width=60%> 
+<img src='./image/Kafka_cluster.png' width=60%>  
 Producer에서 메시지를 입력하고, Consumer에서 메시지를 읽어갈 때 Zookeeper에서 broker 및 offset 정보를 관리하므로 분산처리가 가능하게 된다. 
 
 ---
